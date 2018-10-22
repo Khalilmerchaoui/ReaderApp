@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sample="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="General">
+
+        <CheckBoxPreference
+            android:title="@string/detect_title"
+            android:summary="@string/detect_summary"
+            android:key="check"
+            android:enabled="false"
+            android:checked="false"
+            android:focusableInTouchMode="true"
+            />
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="speed"
+            android:title="Speech rate"
+            android:enabled="true"
+            android:defaultValue="100"
+            sample:msbp_minValue="25"
+            sample:msbp_maxValue="200"
+            sample:msbp_measurementUnit="%"
+            sample:msbp_dialogEnabled="false"/>
+        <ListPreference
+            android:title="@string/language"
+            android:key="language"
+            android:defaultValue="0"
+            android:summary="%s"
+            >
+        </ListPreference>
+        <Preference
+            android:title="@string/download_language_title"
+            android:key="download"
+            android:summary="@string/download_language_summary">
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="About">
+
+        <PreferenceScreen
+            android:title="@string/app_version"
+            android:summary="2.1"
+            />
+        <PreferenceScreen
+            android:title="@string/rate_title"
+            android:summary="@string/rate_summary"
+            android:key="rate"/>
+        <PreferenceScreen
+            android:title="@string/credits_title"
+            android:summary="@string/credits_summary"
+            android:key="credits"
+            />
+        <PreferenceScreen
+            android:title="@string/contact_title"
+            android:key="contact"
+            android:summary="@string/contact_summary"
+            />
+        <PreferenceScreen
+            android:title="@string/Author"
+            android:summary="Ahmed Khalil Merchaoui"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

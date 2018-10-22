@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Lire</string>
+    <string name="app_name">ReaderApp</string>
+    <string name="welcomeScreen1_title">L\'accessibilité est importante</string>
+    <string name="welcomeScreen2_title">La facilité d\'utilisation</string>
+    <string name="welcomeScreen3_title">La compatibilité est la Clé</string>
+    <string name="welcomeScreen1_text">Lit tout texte sélectionnable dans n\'importe quelle application!</string>
+    <string name="welcomeScreen2_text">Détecte automatiquement la langue du texte!</string>
+    <string name="welcomeScreen3_text">Contient plus de 50 langues et accents!</string>
+    <string name="Settings">Paramètres</string>
+    <string name="Help">Aide</string>
+    <string name="Exit">Sortie</string>
+    <string name="dialog_name">Patientez s\'il vous plait…</string>
+    <string name="detect_title">Détecter la langue du texte</string>
+    <string name="detect_summary">Détection automatique de la langue du texte.</string>
+    <string name="language">Langue</string>
+    <string name="download_language_title">Télécharger des langues</string>
+    <string name="download_language_summary">Télécharger de nouvelles langues &amp; accents.</string>
+    <string name="app_version">Version de l\'Application</string>
+    <string name="rate_title">Notation &amp; Commentaire</string>
+    <string name="rate_summary">Notez cette application sur Google Playstore et envoyez vos commentaires.</string>
+    <string name="credits_title">Crédits</string>
+    <string name="credits_summary">Les icônes utilisées dans cette application proviennent de materialdesignicons.com .</string>
+    <string name="contact_title">Contactez-Nous</string>
+    <string name="contact_summary">Contactez notre équipe pour plus d\'aide.</string>
+    <string name="Author">Auteur</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/Settings"
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"/>
+
+    <item android:title="@string/Help"
+        android:id="@+id/help"
+        android:icon="@drawable/help_circle"/>
+
+    <item android:title="@string/Exit"
+        android:id="@+id/exit"
+        android:icon="@drawable/exit_to_app"/>
+</menu>

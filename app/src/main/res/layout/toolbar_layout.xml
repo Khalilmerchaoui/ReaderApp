@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/screen"
+    android:background="@android:color/transparent">
+
+    <FrameLayout
+        android:layout_width="360dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/mediatoolbar"
+        android:elevation="4dp"
+        android:transitionName="fabtool"
+        android:visibility="invisible"
+        android:background="@color/toolbar_color"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp">
+
+
+            <ImageButton
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/pauseplaylayout"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_next_button_vector" />
+
+            <ImageButton
+                android:id="@+id/popup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/next"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/popup_menu_drawable" />
+
+            <RelativeLayout
+                android:id="@+id/pauseplaylayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/circle_accent"
+                android:elevation="4dp">
+
+                <ImageButton
+                    android:id="@+id/pauseplay"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+            </RelativeLayout>
+
+
+            <ImageButton
+                android:id="@+id/previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:layout_toStartOf="@+id/next"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_previous_button_vector" />
+
+            <ImageButton
+                android:id="@+id/repeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/previous"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="80dp"
+                android:layout_toStartOf="@+id/next"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_repeat_button_vector" />
+
+
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

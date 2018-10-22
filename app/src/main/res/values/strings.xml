@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ReaderApp</string>
+    <string name="app_label">Read</string>
+    <string name="welcomeScreen1_title">Accessibility is important</string>
+    <string name="welcomeScreen2_title">Ease of use</string>
+    <string name="welcomeScreen3_title">Compatibility is key</string>
+    <string name="welcomeScreen1_text">Reads any selectable text in any application!</string>
+    <string name="welcomeScreen2_text">Automatically detects the language of the text!</string>
+    <string name="welcomeScreen3_text">Supports over 50 languages and accents!</string>
+    <string name="Settings">Settings</string>
+    <string name="Help">Help</string>
+    <string name="Exit">Exit</string>
+    <string name="dialog_name">Please wait…</string>
+    <string name="detect_title">Detect Text Language</string>
+    <string name="detect_summary">Automatically detect language of the text.</string>
+    <string name="language">Language</string>
+    <string name="download_language_title">Download languages</string>
+    <string name="download_language_summary">Download new languages &amp; accents.</string>
+    <string name="app_version">App Version</string>
+    <string name="rate_title">Rate &amp; Feedback</string>
+    <string name="rate_summary">Rate this app on the Google Playstore and send your feedback.</string>
+    <string name="credits_title">Credits</string>
+    <string name="credits_summary">The icons used in this app are from materialdesignicons.com .</string>
+    <string name="contact_title">Contact Us</string>
+    <string name="contact_summary">Contact our team for more support.</string>
+    <string name="Author">Author</string>
+
+</resources>
