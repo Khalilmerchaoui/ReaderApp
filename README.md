@@ -1,5 +1,5 @@
 # ReaderApp
-<img alt="Logo" src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="80">
+<img alt="Logo" src="app/src/main/res/drawable/icon.png" width="80">
 
 <div>
 <img alt="App image" src="screenshots/device-2017-08-10-181332.png" width="33%">
