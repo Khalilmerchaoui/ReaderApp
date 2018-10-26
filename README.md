@@ -4,7 +4,7 @@
 <div>
 <img alt="App image" src="screenshots/device-2017-08-10-181332.png" width="33%">
 <img alt="App image" src="screenshots/device-2017-08-10-183307.png" width="33%">
-<img alt="App image" src="screenshots/Screenshot_1522862252.png" width="33%">
+<img alt="App image" src="screenshots/Screenshot_1540516505.png" width="33%">
 </div>
 
 ## License
